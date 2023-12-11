@@ -10,7 +10,12 @@
 #include <sstream>
 using namespace std;
 
-
+/**
+ * Imprime un vector cualquiera
+ * @param vector
+ * @param tam
+ * @return stringstream con los datos
+ */
 string imprimirVector(int vector[],int tam){
     stringstream sso;
 
